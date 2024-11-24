@@ -2,11 +2,19 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
+import GlobalSytle from './components/GlobalSytle.vue'
+import LocalStyle from './components/LocalStyle.vue'
+import CombinedStyle from './components/CombinedStyle.vue'
+import ModuleStyle from './components/ModuleStyle.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Learning Vue" />
-  <Home />
+  <!-- <HelloWorld msg="Learning Vue" />
+  <Home /> -->
+  <GlobalSytle />
+  <LocalStyle />
+  <CombinedStyle />
+  <ModuleStyle />
 </template>
 
 <style scoped>
