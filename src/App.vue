@@ -7,6 +7,8 @@ import LocalStyle from './components/LocalStyle.vue'
 import CombinedStyle from './components/CombinedStyle.vue'
 import ModuleStyle from './componen ts/ModuleStyle.vue'
 import Events from './components/Events.vue'
+import MyReactiveComponent from './components/MyReactiveComponent.vue'
+import MyRefComponent from './components/MyRefComponent.vue'
 </script>
 
 <template>
@@ -18,7 +20,11 @@ import Events from './components/Events.vue'
   <CombinedStyle />
   <ModuleStyle /> -->
 
-  <Events />
+  <!-- <Events /> -->
+
+  <!-- <MyReactiveComponent /> -->
+
+  <MyRefComponent />
 </template>
 
 <style scoped>
