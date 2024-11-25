@@ -5,16 +5,26 @@ import Home from './components/Home.vue'
 import GlobalSytle from './components/GlobalSytle.vue'
 import LocalStyle from './components/LocalStyle.vue'
 import CombinedStyle from './components/CombinedStyle.vue'
-import ModuleStyle from './components/ModuleStyle.vue'
+import ModuleStyle from './componen ts/ModuleStyle.vue'
+import Events from './components/Events.vue'
+import MyReactiveComponent from './components/MyReactiveComponent.vue'
+import MyRefComponent from './components/MyRefComponent.vue'
 </script>
 
 <template>
   <!-- <HelloWorld msg="Learning Vue" />
   <Home /> -->
-  <GlobalSytle />
+
+  <!-- <GlobalSytle />
   <LocalStyle />
   <CombinedStyle />
-  <ModuleStyle />
+  <ModuleStyle /> -->
+
+  <!-- <Events /> -->
+
+  <!-- <MyReactiveComponent /> -->
+
+  <MyRefComponent />
 </template>
 
 <style scoped>
